@@ -1,0 +1,46 @@
+.buybook .box { width: 100%; text-align:center; }
+.buybook .box-visible { display: block; }
+.buybook .box-invisible { display: none; }
+.buybook .btbalign { float: left; }
+.buybook .toggle { float: left; }
+.buybook .dualcolumn { width: 45%; margin-right: 5%; }
+.buybook .tricolumn { width: 30%; margin-right: 3%; }
+.buybook .btbe_box { margin: 0 2% 2% 0%; float: left; }
+.buybook .btbe_row .btbe_box:last-child { margin-right: 0; }
+.btbe_button { white-space: normal; display: block; margin: auto; width: 100%; }
+
+/* Add all the Goodreads styles */
+
+#goodreads-widget {
+  font-family: georgia, serif;
+  padding: 18px 0;
+  width:100%;
+}
+#goodreads-widget h1 {
+  font-weight:normal;
+  font-size: 16px;
+  border-bottom: 1px solid #BBB596;
+  margin-bottom: 0;
+}
+#goodreads-widget a {
+  text-decoration: none;
+  color:#660;
+}
+iframe{
+  background-color: #fff;
+}
+#goodreads-widget a:hover { text-decoration: underline; }
+#goodreads-widget a:active {
+  color:#660;
+}
+#gr_footer {
+  width: 100%;
+  border-top: 1px solid #BBB596;
+  text-align: right;
+}
+#goodreads-widget .gr_branding{
+  color: #382110;
+  font-size: 11px;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
